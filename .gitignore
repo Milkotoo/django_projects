@@ -1,0 +1,4 @@
+.gitmodules
+venv/
+*.pyc
+__pycache__/
