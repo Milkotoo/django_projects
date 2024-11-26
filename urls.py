@@ -16,9 +16,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+# muzyka_sample_project/urls.py
+from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('admin/', admin.site.urls),  # Один маршрут для адміністрування
     path('', include('hello_app.urls')),  # Додаємо маршрути hello_app
 ]
+
